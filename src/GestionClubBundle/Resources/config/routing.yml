@@ -1,0 +1,7 @@
+gestion_club_socio:
+    resource: "@GestionClubBundle/Resources/config/routing/socio.yml"
+    prefix:   /socio
+
+gestion_club_homepage:
+    path:     /
+    defaults: { _controller: GestionClubBundle:socio:index }

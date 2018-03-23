@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h2 class="text-info bg-info">Alta de socio</h2>
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <input type="submit" value="Dar de alta" class="btn btn-primary btn-xs" />
+    {{ form_end(form) }}
+
+    
+            <a href="{{ path('socio_index') }}" class="btn btn-info btn-xs" role="button" >Volver al listado</a>
+      
+{% endblock %}
