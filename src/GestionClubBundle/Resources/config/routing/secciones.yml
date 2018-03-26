@@ -1,0 +1,21 @@
+secciones_index:
+    path:     /
+    defaults: { _controller: "GestionClubBundle:secciones:index" }
+    methods:  GET
+
+secciones_nosotros:
+    path:     /nosotros
+    defaults: { _controller: "GestionClubBundle:secciones:nosotros" }
+    methods:  GET
+
+secciones_servicios:
+    path:     /servicios
+    defaults: { _controller: "GestionClubBundle:secciones:servicios" }
+    methods:  GET
+
+secciones_contacto:
+    path:     /contacto
+    defaults: { _controller: "GestionClubBundle:secciones:contacto" }
+    methods:  GET
+
+
